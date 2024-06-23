@@ -1,0 +1,14 @@
+utils/TestUtils$1.class
+models/ApiResponse.class
+models/CreateUserModel$Builder.class
+utils/Attributes.class
+services/GoRestService.class
+models/CreateUserModel.class
+services/BaseService.class
+utils/TestUtils$4.class
+utils/TestUtils.class
+models/SuccessData.class
+models/CreateUserModel$1.class
+utils/TestUtils$2.class
+models/ErrorData.class
+utils/TestUtils$3.class

@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="CreateUserTests" time="9.745" tests="7" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/donald.lamaj/Desktop/QA Engineer Test/BackendTest/target/test-classes:/Users/donald.lamaj/Desktop/QA Engineer Test/BackendTest/target/classes:/Users/donald.lamaj/.m2/repository/io/rest-assured/rest-assured/4.3.3/rest-assured-4.3.3.jar:/Users/donald.lamaj/.m2/repository/org/codehaus/groovy/groovy/3.0.7/groovy-3.0.7.jar:/Users/donald.lamaj/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.7/groovy-xml-3.0.7.jar:/Users/donald.lamaj/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/donald.lamaj/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/donald.lamaj/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/donald.lamaj/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/donald.lamaj/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/donald.lamaj/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/donald.lamaj/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/donald.lamaj/.m2/repository/io/rest-assured/xml-path/4.3.3/xml-path-4.3.3.jar:/Users/donald.lamaj/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/donald.lamaj/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/Users/donald.lamaj/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/Users/donald.lamaj/.m2/repository/io/rest-assured/json-path/4.3.3/json-path-4.3.3.jar:/Users/donald.lamaj/.m2/repository/org/codehaus/groovy/groovy-json/3.0.7/groovy-json-3.0.7.jar:/Users/donald.lamaj/.m2/repository/io/rest-assured/rest-assured-common/4.3.3/rest-assured-common-4.3.3.jar:/Users/donald.lamaj/.m2/repository/io/rest-assured/json-schema-validator/4.3.3/json-schema-validator-4.3.3.jar:/Users/donald.lamaj/.m2/repository/com/github/java-json-tools/json-schema-validator/2.2.14/json-schema-validator-2.2.14.jar:/Users/donald.lamaj/.m2/repository/com/google/guava/guava/28.2-android/guava-28.2-android.jar:/Users/donald.lamaj/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/donald.lamaj/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/donald.lamaj/.m2/repository/org/checkerframework/checker-compat-qual/2.5.5/checker-compat-qual-2.5.5.jar:/Users/donald.lamaj/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar:/Users/donald.lamaj/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/donald.lamaj/.m2/repository/com/github/java-json-tools/jackson-coreutils-equivalence/1.0/jackson-coreutils-equivalence-1.0.jar:/Users/donald.lamaj/.m2/repository/com/github/java-json-tools/jackson-coreutils/2.0/jackson-coreutils-2.0.jar:/Users/donald.lamaj/.m2/repository/com/github/java-json-tools/msg-simple/1.2/msg-simple-1.2.jar:/Users/donald.lamaj/.m2/repository/com/github/java-json-tools/btf/1.3/btf-1.3.jar:/Users/donald.lamaj/.m2/repository/com/github/java-json-tools/json-schema-core/1.2.14/json-schema-core-1.2.14.jar:/Users/donald.lamaj/.m2/repository/com/github/java-json-tools/uri-template/0.10/uri-template-0.10.jar:/Users/donald.lamaj/.m2/repository/org/mozilla/rhino/1.7.7.2/rhino-1.7.7.2.jar:/Users/donald.lamaj/.m2/repository/com/sun/mail/mailapi/1.6.2/mailapi-1.6.2.jar:/Users/donald.lamaj/.m2/repository/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar:/Users/donald.lamaj/.m2/repository/com/googlecode/libphonenumber/libphonenumber/8.11.1/libphonenumber-8.11.1.jar:/Users/donald.lamaj/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/donald.lamaj/.m2/repository/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/Users/donald.lamaj/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.7.2/junit-jupiter-api-5.7.2.jar:/Users/donald.lamaj/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/donald.lamaj/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/donald.lamaj/.m2/repository/org/junit/platform/junit-platform-commons/1.7.2/junit-platform-commons-1.7.2.jar:/Users/donald.lamaj/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.7.2/junit-jupiter-params-5.7.2.jar:/Users/donald.lamaj/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.7.2/junit-jupiter-engine-5.7.2.jar:/Users/donald.lamaj/.m2/repository/org/junit/platform/junit-platform-engine/1.7.2/junit-platform-engine-1.7.2.jar:/Users/donald.lamaj/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/donald.lamaj/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/Users/donald.lamaj/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/donald.lamaj/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/donald.lamaj/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/Users/donald.lamaj/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.3/jackson-core-2.13.3.jar:/Users/donald.lamaj/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.3/jackson-databind-2.13.3.jar:/Users/donald.lamaj/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.3/jackson-annotations-2.13.3.jar:"/>
+    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/donald.lamaj/Desktop/QA Engineer Test/BackendTest/target/surefire/surefirebooter-20240623231756971_3.jar /Users/donald.lamaj/Desktop/QA Engineer Test/BackendTest/target/surefire 2024-06-23T23-17-56_921-jvmRun1 surefire-20240623231756971_1tmp surefire_0-20240623231756971_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/donald.lamaj/Desktop/QA Engineer Test/BackendTest/target/test-classes:/Users/donald.lamaj/Desktop/QA Engineer Test/BackendTest/target/classes:/Users/donald.lamaj/.m2/repository/io/rest-assured/rest-assured/4.3.3/rest-assured-4.3.3.jar:/Users/donald.lamaj/.m2/repository/org/codehaus/groovy/groovy/3.0.7/groovy-3.0.7.jar:/Users/donald.lamaj/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.7/groovy-xml-3.0.7.jar:/Users/donald.lamaj/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/donald.lamaj/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/donald.lamaj/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/donald.lamaj/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/donald.lamaj/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/donald.lamaj/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/donald.lamaj/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/donald.lamaj/.m2/repository/io/rest-assured/xml-path/4.3.3/xml-path-4.3.3.jar:/Users/donald.lamaj/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/donald.lamaj/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/Users/donald.lamaj/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/Users/donald.lamaj/.m2/repository/io/rest-assured/json-path/4.3.3/json-path-4.3.3.jar:/Users/donald.lamaj/.m2/repository/org/codehaus/groovy/groovy-json/3.0.7/groovy-json-3.0.7.jar:/Users/donald.lamaj/.m2/repository/io/rest-assured/rest-assured-common/4.3.3/rest-assured-common-4.3.3.jar:/Users/donald.lamaj/.m2/repository/io/rest-assured/json-schema-validator/4.3.3/json-schema-validator-4.3.3.jar:/Users/donald.lamaj/.m2/repository/com/github/java-json-tools/json-schema-validator/2.2.14/json-schema-validator-2.2.14.jar:/Users/donald.lamaj/.m2/repository/com/google/guava/guava/28.2-android/guava-28.2-android.jar:/Users/donald.lamaj/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/donald.lamaj/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/donald.lamaj/.m2/repository/org/checkerframework/checker-compat-qual/2.5.5/checker-compat-qual-2.5.5.jar:/Users/donald.lamaj/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar:/Users/donald.lamaj/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/donald.lamaj/.m2/repository/com/github/java-json-tools/jackson-coreutils-equivalence/1.0/jackson-coreutils-equivalence-1.0.jar:/Users/donald.lamaj/.m2/repository/com/github/java-json-tools/jackson-coreutils/2.0/jackson-coreutils-2.0.jar:/Users/donald.lamaj/.m2/repository/com/github/java-json-tools/msg-simple/1.2/msg-simple-1.2.jar:/Users/donald.lamaj/.m2/repository/com/github/java-json-tools/btf/1.3/btf-1.3.jar:/Users/donald.lamaj/.m2/repository/com/github/java-json-tools/json-schema-core/1.2.14/json-schema-core-1.2.14.jar:/Users/donald.lamaj/.m2/repository/com/github/java-json-tools/uri-template/0.10/uri-template-0.10.jar:/Users/donald.lamaj/.m2/repository/org/mozilla/rhino/1.7.7.2/rhino-1.7.7.2.jar:/Users/donald.lamaj/.m2/repository/com/sun/mail/mailapi/1.6.2/mailapi-1.6.2.jar:/Users/donald.lamaj/.m2/repository/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar:/Users/donald.lamaj/.m2/repository/com/googlecode/libphonenumber/libphonenumber/8.11.1/libphonenumber-8.11.1.jar:/Users/donald.lamaj/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/donald.lamaj/.m2/repository/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/Users/donald.lamaj/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.7.2/junit-jupiter-api-5.7.2.jar:/Users/donald.lamaj/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/donald.lamaj/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/donald.lamaj/.m2/repository/org/junit/platform/junit-platform-commons/1.7.2/junit-platform-commons-1.7.2.jar:/Users/donald.lamaj/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.7.2/junit-jupiter-params-5.7.2.jar:/Users/donald.lamaj/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.7.2/junit-jupiter-engine-5.7.2.jar:/Users/donald.lamaj/.m2/repository/org/junit/platform/junit-platform-engine/1.7.2/junit-platform-engine-1.7.2.jar:/Users/donald.lamaj/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/donald.lamaj/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/Users/donald.lamaj/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/donald.lamaj/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/donald.lamaj/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/Users/donald.lamaj/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.3/jackson-core-2.13.3.jar:/Users/donald.lamaj/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.3/jackson-databind-2.13.3.jar:/Users/donald.lamaj/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.3/jackson-annotations-2.13.3.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/donald.lamaj"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-10-17"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/donald.lamaj/Desktop/QA Engineer Test/BackendTest"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/donald.lamaj/Desktop/QA Engineer Test/BackendTest/target/surefire/surefirebooter-20240623231756971_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="11.0.21+9-LTS"/>
+    <property name="user.name" value="donald.lamaj"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="13.6"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Corretto-11.0.21.9.1"/>
+    <property name="localRepository" value="/Users/donald.lamaj/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-11/issues/"/>
+    <property name="java.io.tmpdir" value="/var/folders/hw/k35cszr92j30_6d2f76rhw9c0000gn/T/"/>
+    <property name="java.version" value="11.0.21"/>
+    <property name="user.dir" value="/Users/donald.lamaj/Desktop/QA Engineer Test/BackendTest"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/donald.lamaj/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Amazon.com Inc."/>
+    <property name="java.vm.version" value="11.0.21+9-LTS"/>
+    <property name="java.specification.maintenance.version" value="2"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="Users_CreateUsers_Success" classname="CreateUserTests" time="1.867">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://gorest.co.in/public/v1/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer fa80cece96297cd1ee8f66607d62a94723a4ddd79769451e5a6ef9efba66ca61
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Shelia Mohr",
+    "gender": "male",
+    "email": "fake_lorette.parisian@yahoo.com",
+    "status": "inactive"
+}
+HTTP/1.1 201 Created
+Date: Sun, 23 Jun 2024 22:17:59 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 134
+Connection: keep-alive
+Cache-Control: max-age=0, private, must-revalidate
+etag: W/"159b59d809aa2d903b80ca0b4cefac4b"
+location: https://gorest.co.in/public/v1/users/6979501
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 90
+x-ratelimit-remaining: 87
+x-ratelimit-reset: 1
+x-request-id: 59344d30-5a75-4155-9819-7e57e5411e5d
+x-runtime: 0.130370
+x-xss-protection: 0
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=VLgWd7t7RRCG3ZyfRGmIH3s5AFDm89oftn8i2tvBR8Ga2ZCHNL1H%2B2d3vl8TVRbPrEh3ju3nVEhaBuH2DEnoBMJrJxU2DTPz7UpT%2BBpdTK2bOQNJlz8ernwr%2BgLCgoM%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 8987d9ebedc063ef-LHR
+alt-svc: h3=":443"; ma=86400
+
+{
+    "meta": null,
+    "data": {
+        "id": 6979501,
+        "name": "Shelia Mohr",
+        "email": "fake_lorette.parisian@yahoo.com",
+        "gender": "male",
+        "status": "inactive"
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="Users_CreateUsers_WrongEmail" classname="CreateUserTests" time="0.848">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://gorest.co.in/public/v1/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer fa80cece96297cd1ee8f66607d62a94723a4ddd79769451e5a6ef9efba66ca61
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Mr. Brant Wuckert",
+    "gender": "Male",
+    "email": "InvalidEmail",
+    "status": "Active"
+}
+HTTP/1.1 422 Unprocessable Entity
+Date: Sun, 23 Jun 2024 22:17:59 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 63
+Connection: keep-alive
+Cache-Control: no-cache
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 90
+x-ratelimit-remaining: 89
+x-ratelimit-reset: 1
+x-request-id: 17fe08a1-63b0-4e03-b95c-0c531f32edee
+x-runtime: 0.085097
+x-xss-protection: 0
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=jlBNmkRVxNC0NBfHCGYHlfQ0EbU7LfDMb%2F%2BRbcMdflsQHmnknaDARENUPX21dQFzbTzO20r6%2FShp1tP3TVfcjVYU9XiU25lsbJIz5pSbYDu%2BstyaPLdli0hHYva8DrM%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 8987d9f23f9a6355-LHR
+alt-svc: h3=":443"; ma=86400
+
+{
+    "meta": null,
+    "data": [
+        {
+            "field": "email",
+            "message": "is invalid"
+        }
+    ]
+}
+]]></system-out>
+  </testcase>
+  <testcase name="Users_CreateUsers_MissingGender" classname="CreateUserTests" time="0.784">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://gorest.co.in/public/v1/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer fa80cece96297cd1ee8f66607d62a94723a4ddd79769451e5a6ef9efba66ca61
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Carter Kutch Jr.",
+    "email": "fake_odis.robel@gmail.com",
+    "status": "active"
+}
+HTTP/1.1 422 Unprocessable Entity
+Date: Sun, 23 Jun 2024 22:18:00 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 91
+Connection: keep-alive
+Cache-Control: no-cache
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 90
+x-ratelimit-remaining: 89
+x-ratelimit-reset: 2
+x-request-id: 54898fd3-9024-4d52-beb4-e594e904371c
+x-runtime: 0.100606
+x-xss-protection: 0
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=zLctn82T2lAyxY2uXZOJzypq0X1VqHxy4W8FIDofS7yHkvGRrLonO5ZmJGQSY35rWfi92CDvkLNOWYIxBSwu24ijasS%2FRTek%2FN%2BL9toTyZ6xRQqnYeEyEC6ziXiySGw%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 8987d9f79b0f60e1-LHR
+alt-svc: h3=":443"; ma=86400
+
+{
+    "meta": null,
+    "data": [
+        {
+            "field": "gender",
+            "message": "can't be blank, can be male of female"
+        }
+    ]
+}
+]]></system-out>
+  </testcase>
+  <testcase name="Users_CreateUsers_MissingStatus" classname="CreateUserTests" time="0.552">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://gorest.co.in/public/v1/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer fa80cece96297cd1ee8f66607d62a94723a4ddd79769451e5a6ef9efba66ca61
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Foster Beier",
+    "gender": "male",
+    "email": "fake_joycelyn.collier@gmail.com"
+}
+HTTP/1.1 422 Unprocessable Entity
+Date: Sun, 23 Jun 2024 22:18:01 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 68
+Connection: keep-alive
+Cache-Control: no-cache
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 90
+x-ratelimit-remaining: 88
+x-ratelimit-reset: 2
+x-request-id: e99f861b-2837-40a1-afce-2f0f1161af5e
+x-runtime: 0.105787
+x-xss-protection: 0
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=LmbHXjUi27gXp%2BJ%2BCv1%2BHMgABuWNpVZwH16SuPnK5FChbNqQBw%2FTDwvULCiA5nE6rL9ZFAF0q3mMiRktQy3MCACjz5n%2BY6Hu6h78uVnsfwrQ5kQnsSd2xssC0RuMaPc%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 8987d9fc1dc006b6-LHR
+alt-svc: h3=":443"; ma=86400
+
+{
+    "meta": null,
+    "data": [
+        {
+            "field": "status",
+            "message": "can't be blank"
+        }
+    ]
+}
+]]></system-out>
+  </testcase>
+  <testcase name="Users_CreateUsers_ExistingEmail" classname="CreateUserTests" time="3.512">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://gorest.co.in/public/v1/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer fa80cece96297cd1ee8f66607d62a94723a4ddd79769451e5a6ef9efba66ca61
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Sanford Weber",
+    "gender": "male",
+    "email": "fake_shelby.lindgren@yahoo.com",
+    "status": "inactive"
+}
+HTTP/1.1 201 Created
+Date: Sun, 23 Jun 2024 22:18:02 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 135
+Connection: keep-alive
+Cache-Control: max-age=0, private, must-revalidate
+etag: W/"74a327de46bc43cd8e37de66236904a6"
+location: https://gorest.co.in/public/v1/users/6979502
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 90
+x-ratelimit-remaining: 88
+x-ratelimit-reset: 2
+x-request-id: 94785875-539b-45ed-a393-b041e2fd9ef2
+x-runtime: 0.140686
+x-xss-protection: 0
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=szuPJowxgiPJfqOZYjekmOKXJRPXB9UPlg1B0gyvUg5XLdcrEiqSIVpM1%2FQSNyCFqzPCpMbrxLwwf4AJoFE7NOmSif29U64f54EqQYw7HIi0gi9JvQlx8Fgn9OMgYEM%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 8987d9ff5da976f5-LHR
+alt-svc: h3=":443"; ma=86400
+
+{
+    "meta": null,
+    "data": {
+        "id": 6979502,
+        "name": "Sanford Weber",
+        "email": "fake_shelby.lindgren@yahoo.com",
+        "gender": "male",
+        "status": "inactive"
+    }
+}
+HTTP/1.1 201 Created
+Date: Sun, 23 Jun 2024 22:18:02 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 135
+Connection: keep-alive
+Cache-Control: max-age=0, private, must-revalidate
+etag: W/"74a327de46bc43cd8e37de66236904a6"
+location: https://gorest.co.in/public/v1/users/6979502
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 90
+x-ratelimit-remaining: 88
+x-ratelimit-reset: 2
+x-request-id: 94785875-539b-45ed-a393-b041e2fd9ef2
+x-runtime: 0.140686
+x-xss-protection: 0
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=szuPJowxgiPJfqOZYjekmOKXJRPXB9UPlg1B0gyvUg5XLdcrEiqSIVpM1%2FQSNyCFqzPCpMbrxLwwf4AJoFE7NOmSif29U64f54EqQYw7HIi0gi9JvQlx8Fgn9OMgYEM%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 8987d9ff5da976f5-LHR
+alt-svc: h3=":443"; ma=86400
+
+{
+    "meta": null,
+    "data": {
+        "id": 6979502,
+        "name": "Sanford Weber",
+        "email": "fake_shelby.lindgren@yahoo.com",
+        "gender": "male",
+        "status": "inactive"
+    }
+}
+Request method:	POST
+Request URI:	https://gorest.co.in/public/v1/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer fa80cece96297cd1ee8f66607d62a94723a4ddd79769451e5a6ef9efba66ca61
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Debra Prosacco",
+    "gender": "female",
+    "email": "fake_shelby.lindgren@yahoo.com",
+    "status": "active"
+}
+HTTP/1.1 422 Unprocessable Entity
+Date: Sun, 23 Jun 2024 22:18:04 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 75
+Connection: keep-alive
+Cache-Control: no-cache
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 90
+x-ratelimit-remaining: 88
+x-ratelimit-reset: 1
+x-request-id: 04eacf0b-1b23-4e70-b8f8-80c8dda00216
+x-runtime: 0.134723
+x-xss-protection: 0
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=CoZtM1yPxoR1gpLo5%2FLVFv5GD2CzSs8wOb4fL4OisG2kz2CZcxyoWuV%2B0kR7Y%2F4TD1v3R73reThoXnSplNOIhwegM2VbtA9DSu0259HN7lzYedtWreiGuVszKo4pIAw%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 8987da110c2293fc-LHR
+alt-svc: h3=":443"; ma=86400
+
+{
+    "meta": null,
+    "data": [
+        {
+            "field": "email",
+            "message": "has already been taken"
+        }
+    ]
+}
+]]></system-out>
+  </testcase>
+  <testcase name="Users_CreateUsers_WrongStatus" classname="CreateUserTests" time="1.155">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://gorest.co.in/public/v1/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer fa80cece96297cd1ee8f66607d62a94723a4ddd79769451e5a6ef9efba66ca61
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Houston Corwin",
+    "gender": "Male",
+    "email": "fake_eugene.vonrueden@hotmail.com",
+    "status": "InvalidStatus"
+}
+HTTP/1.1 422 Unprocessable Entity
+Date: Sun, 23 Jun 2024 22:18:05 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 68
+Connection: keep-alive
+Cache-Control: no-cache
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 90
+x-ratelimit-remaining: 89
+x-ratelimit-reset: 1
+x-request-id: 8d4818fc-3c0a-4db3-a7e9-e700cf37ef2d
+x-runtime: 0.104073
+x-xss-protection: 0
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=xhD2RXSBWFjWULjLpem3kub%2B7f6T9aE%2BfPzI2eDLLv%2FMBE5pmwzqkz02SjczQ59hS4HMBSdne%2Bm1yhAFHE7i4iMD%2BkSKHsFco%2Bb8LJ1qqQzcQR2Q8UbDsI55yM2q7Ag%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 8987da1649ac6343-LHR
+alt-svc: h3=":443"; ma=86400
+
+{
+    "meta": null,
+    "data": [
+        {
+            "field": "status",
+            "message": "can't be blank"
+        }
+    ]
+}
+]]></system-out>
+  </testcase>
+  <testcase name="Users_CreateUsers_MissingEmail" classname="CreateUserTests" time="1.013">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://gorest.co.in/public/v1/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer fa80cece96297cd1ee8f66607d62a94723a4ddd79769451e5a6ef9efba66ca61
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Jonah Abernathy",
+    "gender": "male",
+    "status": "inactive"
+}
+HTTP/1.1 422 Unprocessable Entity
+Date: Sun, 23 Jun 2024 22:18:06 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 67
+Connection: keep-alive
+Cache-Control: no-cache
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 90
+x-ratelimit-remaining: 89
+x-ratelimit-reset: 1
+x-request-id: ef1a9bd1-ffed-43d8-b828-8c60672a8344
+x-runtime: 0.071992
+x-xss-protection: 0
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=tC%2Bj89JS1ZvvMEjzqgmXE4umncAebI3db4wOOr70tJQaksG0MiusdrluiliP5wWGm0G8vyoZ0Y2kO7qMnIvJqZJ2LHeAmyAN4nIvIB49vvvpGWn5IiyJO%2F5fB%2BBoNkM%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 8987da1c682771d8-LHR
+alt-svc: h3=":443"; ma=86400
+
+{
+    "meta": null,
+    "data": [
+        {
+            "field": "email",
+            "message": "can't be blank"
+        }
+    ]
+}
+]]></system-out>
+  </testcase>
+</testsuite>
