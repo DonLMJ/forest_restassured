@@ -1,10 +1,17 @@
-# QA Engineer test
+# Go Rest RestAssured Tests
 
-### This is a sample project to test APIs using JUnit and RestAssured. In this project you will find the configuration required to write tests for a number of endpoints by Go Rest (https://gorest.co.in/), as well as a sample test class to start with.
+This project contains automated API tests for the [Go Rest API](url) using the RestAssured library, jackson for deserilization and builder pattern. The tests cover various endpoints like the post and the update user endponts and scenarios to ensure the API's robustness and reliability.
 
-##### Requirements:
+## Overview
 
-- Using the already implemented create user endpoint, write a number of tests to cover the functionality of this endpoint
-- Implement whatever is required to write tests for the update user endpoint
 
-###### The information required to perform those tasks can be found here -> https://gorest.co.in/. Feel free to update the project in any way you see fit.
+
+
+## Setup
+
+   ```sh
+   git clone https://github.com/DonLMJ/forest_restassured.git
+   cd forest_restassured
+   cd BackendTest
+   mvn clean install
+   mvn test
